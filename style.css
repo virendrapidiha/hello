@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top .left{
+    padding-left: 6vh;
+}
+
+.top .left h1{
+    color: white;
+    cursor: pointer;
+}
+
+.top .right{
+    padding-right: 6vh;
+    display: flex;
+    gap: 3vh;
+    cursor: pointer ;
+}
+
+.top .right h5{
+    color: white;
+}
+
+.center{
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+
+.center .left{
+    width: 45%;
+    height: 100%;
+    padding-left: 7vh;
+    padding-top: 15vh;
+}
+.center .left .text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+.center .left .text h1{
+    font-size: 10vh;
+    line-height: 10vh;
+    letter-spacing: -0.2vh;
+}
+
+.center .left button{
+    padding: 2vh 3vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    border:solid;
+    color: white;
+    background-color: black;
+}
+
+.center .right{
+    width: 50%;
+    height: 100%;
+    margin-right: 5vh;
+    border-radius: 3vh;
+    background-color: aqua;
+    overflow: hidden;
+}
+.center .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
